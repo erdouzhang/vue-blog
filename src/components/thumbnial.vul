@@ -1,0 +1,48 @@
+<style scoped>
+div.container {
+    width: 720px;
+    float: left;
+    margin-top: 120px;
+    margin-left: 245px;
+    padding-bottom: 80px;
+}
+
+div.content{
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+div.content nav ul{
+    width: 430px;
+    height: 32px;
+    margin: 0 auto;
+}
+
+div.content nav ul li{
+    float: left;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    width: 143px;
+    text-align: center;
+}
+
+div.content nav ul li i{
+    margin-right: 10px;
+}
+
+img.diviseImg{
+    margin-left: 145px;
+}
+</style>
+<template>
+    <div class="container">
+
+    </div>
+</template>
+<script>
+
+  export default {
+
+  }
+</script>
