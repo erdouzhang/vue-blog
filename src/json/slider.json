@@ -1,0 +1,22 @@
+[
+  {
+    "id": "01",
+    "imgSrc": "/images/slider/slide1.jpg",
+    "href": "#"
+  },
+  {
+    "id": "02",
+    "href": "/images/slider/slide2.jpg",
+    "href": "#"
+  },
+  {
+    "id": "03",
+    "href": "/images/slider/slide3.jpg",
+    "href": "#"
+  },
+  {
+    "id": "04",
+    "href": "/images/slider/slide4.jpg",
+    "href": "#"
+  }
+]
