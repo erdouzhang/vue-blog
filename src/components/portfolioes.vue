@@ -51,7 +51,7 @@ img.diviseImg{
     <div class="container">
         <div class="content">
             <comp-nav v-bind:pnavs="items"></comp-nav>
-            <img class="diviseImg" src="/images/star_divider.png"/>
+            <img class="diviseImg" v-bind:src="'./images/star_divider.png'"/>
             <div>
                 <comp-item v-for="item in blogItems" transition="expand" v-bind:item="item" v-if="flag=='all' || item.cate.type == flag" v-bind:path="path"></comp-item>
             </div>

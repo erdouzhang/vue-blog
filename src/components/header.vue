@@ -13,7 +13,6 @@
 .logo h1{
   font-size: 30px;
   line-height: 120px;
-  font-family: "微软雅黑";
   padding: 0 0 0 45px;
   color: #6c6c6c;
   display: inline-block;
@@ -80,7 +79,7 @@ a.toggle-btn{
         </nav>
       </div>
       <a class="toggle-btn" v-on:click="toggle">
-        <img src="/images/Effe_03.gif" width="108" height="54" />
+        <img v-bind:src="'./images/Effe_03.gif'" width="108" height="54" />
       </a>
     </div>
     <comp-toggle-box v-show="showBox" transition="expand"></comp-toggle-box>

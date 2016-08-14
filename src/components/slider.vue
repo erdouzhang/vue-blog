@@ -26,7 +26,7 @@
         display: block;
     }
 
-    div.slider button {
+    /*div.slider button {
         width: 30px;
         height: 30px;
         background: url("/images/arrows.png") no-repeat;
@@ -34,7 +34,7 @@
         bottom: 165px;
         cursor: pointer;
         outline: none;
-    }
+    }*/
 
     div.slider button.prev {
         background-position: left top;
