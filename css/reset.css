@@ -90,14 +90,3 @@ div#blogContent pre code{
     height: 130px;
     overflow: hidden;
 }
-
-div.slider button {
-    width: 30px;
-    height: 30px;
-    background: url("./images/arrows.png") no-repeat;
-    position: absolute;
-    bottom: 165px;
-    cursor: pointer;
-    outline: none;
-}
-

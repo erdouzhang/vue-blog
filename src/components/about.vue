@@ -64,7 +64,7 @@
     <div class="container content">
         <hgroup>
             <h3>这里是一些关于我的···</h3>
-            <img src="'./images/star_divider.png'" width="430" height="16" />
+            <img v-bind:src="'./images/star_divider.png'" width="430" height="16" />
             <h4>在这里你能了解到关于我的一些情况</h4>
         </hgroup>
         <div class="technique">

@@ -1,4 +1,4 @@
-var webpack = require('webpack');
+var webpack = require('webpack')
 
 module.exports = {
   entry: './src/main.js',
@@ -21,9 +21,6 @@ module.exports = {
         // for normal use cases only node_modules is needed.
         exclude: /node_modules|vue\/dist|vue-router\/|vue-loader\/|vue-hot-reload-api\//,
         loader: 'babel'
-      },
-      {
-        test: /\.(jpg|png|gif)$/, loader: "url?limit=8192"
       }
     ]
   },
