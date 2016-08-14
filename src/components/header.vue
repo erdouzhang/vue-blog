@@ -92,7 +92,7 @@ import CompToggleBox from './toggleBox.vue';
 export default {
     data () {
         return {
-            path: this.$route.path,
+            path: this.$route.path.split("/")[1],
             showBox: false
         }
     },
