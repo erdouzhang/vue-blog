@@ -69,7 +69,7 @@ div.container{
     <div id="scroller">
         <ul v-bind:length="length">
             <li v-for="item in imgs" v-on:click="nowImg(item)">
-                <img height="130" src="/images/loading.gif" v-bind:real="item.imgSrc">
+                <img height="130" v-bind:src="'./images/loading.gif'" v-bind:real="item.imgSrc">
             </li>
         </ul>
     </div>
