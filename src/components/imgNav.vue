@@ -19,6 +19,7 @@ div.container{
     background: #ccc;
     overflow: hidden;
     margin: 20px 0 0 0;
+    position: relative;
 }
 
 #scroller {
@@ -100,7 +101,7 @@ export default {
         });
 
         function loaded (obj) {
-            myScroll = new IScroll('#wrapper', { probeType: 3, scrollX: true, scrollY: false, mouseWheel: true });
+            myScroll = new IScroll('#wrapper', { probeType: 3, scrollX: true, scrollY: false, mouseWheel: true, scrollbars: true });
             var imgs = $("#scroller").find("img");
             var imagesData = obj.data;
 
