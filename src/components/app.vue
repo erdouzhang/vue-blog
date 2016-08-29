@@ -3,12 +3,18 @@
     width: 100%;
     height: 100%;
   }
+  .middle{
+    width:980px;
+    margin: 0 auto;
+  }
 </style>
 <template>
 <div class="page">
   <comp-header></comp-header>
-  <comp-menu></comp-menu>
-  <router-view></router-view>
+  <div class="middle">
+      <comp-menu></comp-menu>
+      <router-view></router-view>
+  </div>
   <comp-footer></comp-footer>
 </div>
 </template>
