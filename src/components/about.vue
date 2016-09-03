@@ -71,15 +71,16 @@
             <h4>我掌握的一些专业技能</h4>
             <p>IT技能：Javascript、Ajax、jsonp、jQuery、Html5、CSS3、Zepto、Bootstrap、knockoutJS、Angular、Vue、ionic、Node.js、Gulp、Webpack、Express、MongoDB、Git</p>
             <ol>
-                <li>1. 熟练掌握HTML、DIV+CSS，能够手写符合W3C标准的页面代码；能够很好的把握IE6+及其他主流浏览器的兼容性问题。</li>
-                <li>2. 能运用HTML5、CSS3进行移动端的页面开发，进行响应式布局,熟悉hybrid模式开发。</li>
-                <li>3. 熟练原生JavaScript，熟悉javascript常用的设计模式，掌握面向对象编程思想、原型继承、闭包、函数、事件、观察者设计模式等，熟悉W3C规范、ES6规范。</li>
-                <li>4. 第三方库：熟练使用jQuery/Zepto/Swiper，掌握常用的插件以提高工作效率；掌握Bootstrap/Angular/KnockoutJS/Vue等前端框架技术，熟悉响应式开发和移动端布局，了解CMD/AMD规范和模块化开发流程，熟练使用Require.js模块加载。</li>
-                <li>5. 熟练运用AJAX技术与后台处理数据，熟悉浏览器和服务器交互机制及页面间的通信方式，依据接口文档与后台进行交互。</li>
-                <li>6. 能够熟练使用fireBug，Chrome调试工具调试代码，并能够进一步进行优化。</li>
-                <li>7. 掌握Node.js的基本使用，NPM包管理，搭建服务环境，运用Gulp、Webpack自动化打包工具，了解Express。</li>
-                <li>8. 了解MongoDB进行后台数据库管理技术。</li>
-                <li>9. 熟练使用git管理项目经验。</li>
+                <li>1. 熟练掌握HTML5、CSS3，熟悉HTM:L5新增的标签和接口，能够编写符合语义化和W3C规范的代码；</li>
+                <li>2. 熟练原生JavaScript，掌握面向对象编程思想、熟悉JavaScript常用的设计模式、熟悉语法ES6规范；</li>
+                <li>3. 理解JQuery源码，能够根据面向对象的封装和继承的思想，通过`$.extend()`和`$.fn.extend()`拓展和构建常用的jQuery静态和实例方法；</li>
+                <li>4. 熟悉Bootstrap/EasyUI等UI框架，弄够使用其快速搭建应用界面；</li>
+                <li>5. 理解和掌握Angular/Vue/KnockoutJS/React等MVVM前端框架技术，能够熟练构建基于其的应用程序。能够熟练结合vue、webpack、vue-loader和vue-route搭建模块化的vue单页应用（个人主页），能够熟练搭建AngularJS基于MVC构建的项目应用，熟练应用directive、filter拓展自定义指令和控制器，通过服务拓展全局方法。能够结合ng-route和ng-animate管理路由和页面切换效果，构建单页应用，能够结合ionic构建移动端应用，并弄够结合使用firebase和wilddog等实时后端云，快速搭建复合restful架构风格的应用。</li>
+                <li>6. 了解CMD/AMD规范和模块化开发流程，熟练使用Require.js；</li>
+                <li>7. 熟练运用AJAX技术与后台处理数据，熟悉浏览器和服务器交互机制及页面间的通信方式，掌握Session和cookie和LocalStorage等数据存储技术，能够应用依据接口文档和POSTMAN和AJAX完成与后台的交互；</li>
+                <li>8. 掌握Node.js和mongobd的基本使用，能够应用NPM生态环境和Yoman等前端脚手架工具、mongoose速构建应用；</li>
+                <li>9. 能够运用Gulp、Webpack自动化打包工具，整理项目代码；</li>
+                <li>10. 熟悉React、ES6、babel和webpack；</li>
             </ol>
 
             <div id="echart"></div>
@@ -88,7 +89,6 @@
               <ol>
                 <li>1. 学习一门常用的后台语言（PHP和他的框架yii），进行关系型数据库的学习（mySql）。</li>
                 <li>2. 深入学习javascript设计模式</li>
-                <li>3. 通过商务英语等级考试。</li>
               </ol>
             </div>
             <div class="appraise">
@@ -149,7 +149,7 @@ export default {
       },
       yAxis: {
           type: 'category',
-          data: ['NodeJS', 'Vue', 'KnockoutJS', 'AngularJS', 'jQuery', 'CSS', "HTML"],
+          data: ['NodeJS', 'Vue', 'KnockoutJS', 'AngularJS', 'jQuery & Zepto', 'CSS3', "HTML5"],
           axisTick: {
               show: false,
               interval: 1
